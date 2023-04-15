@@ -34,4 +34,4 @@ def success():
         return render_template("success.html", name = name,result=result,ad="/static/"+name)  
   
 if __name__ == '__main__':  
-    app.run(debug = True) 
+    app.run(debug = True, port=5050) 
